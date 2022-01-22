@@ -101,7 +101,7 @@ public class CalculatorWindow : EditorWindow
         }
     }
 
-    public void AllClear()
+    public void OnClickedAC()
     {
         this.currentValue = 0;
         this.previousValue = 0;
