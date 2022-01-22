@@ -93,7 +93,7 @@ public class CalculatorWindow : EditorWindow
         }
         if (GUI.Button(MakeButtonRect(3, 2), "AC"))
         {
-            AllClear();
+            OnClickedAC();
         }
         if (GUI.Button(MakeButtonRect(3, 3), "+"))
         {
